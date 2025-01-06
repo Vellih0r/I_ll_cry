@@ -24,3 +24,8 @@ Debian/Ubuntu:
    cd I_will_cry
    ./init.sh
     ```
+4. now you can delete directory with repository
+   ```shell
+   cd ..
+   rm -rf I_will_cry
+   ```
