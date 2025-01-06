@@ -5,6 +5,5 @@
 2. clone this reposiroty:
     `git clone https://github.com/Vellih0r/I_will_cry`
 3. Build CLI with bash script
-    `cd I_will_cry`
-
-    `./init.sh`
+       `cd I_will_cry
+       ./init.sh`
