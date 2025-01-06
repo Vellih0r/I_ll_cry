@@ -12,6 +12,7 @@ I took image from this [cool youtube playlist](https://www.youtube.com/watch?v=3
    ```shell
    sudo apt update && sudo apt upgrade -y
    sudo apt install python3 pip
+   sudo apt install python3.10-venv
    ```
    Archlinux:
    ```shell
