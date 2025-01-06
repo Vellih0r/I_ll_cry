@@ -10,15 +10,17 @@ I took image from this [cool youtube playlist](https://www.youtube.com/watch?v=3
 Debian/Ubuntu:
    ```shell
       sudo apt update && sudo apt upgrade -y
-      sudo apt install python3 pip```
-Archlinux:
-      ```shell
+      sudo apt install python3 pip
+   ```
+   Archlinux:
+   ```shell
          sudo pacman -Syu
          sudo pacman -S python
-         sudo pacman -S python-pip``` 
-3. clone this reposiroty:
-    `git clone https://github.com/Vellih0r/I_will_cry`
-4. change directory
-    `cd I_will_cry`
-5. Build CLI with bash script
-       `./init.sh`
+         sudo pacman -S python-pip
+   ``` 
+3. clone this reposiroty and build CLI with bash script:
+    ```shell
+   git clone https://github.com/Vellih0r/I_will_cry
+   cd I_will_cry
+   ./init.sh
+    ```
