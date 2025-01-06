@@ -7,13 +7,15 @@ I took image from this [cool youtube playlist](https://www.youtube.com/watch?v=3
 # How to install (only linux)
 
 1. install python and pip:
-   Debian/Ubuntu:
-    `sudo apt update && sudo apt upgrade -y`
-    `sudo apt install python3 pip`
-   Archlinux:
-   `sudo pacman -Syu`
-   `sudo pacman -S python && sudo pacman -S python-pip`
-   
+Debian/Ubuntu:
+       ```shell
+      sudo apt update && sudo apt upgrade -y
+      sudo apt install python3 pip```
+Archlinux:
+      ```shell
+         sudo pacman -Syu
+         sudo pacman -S python
+         sudo pacman -S python-pip``` 
 3. clone this reposiroty:
     `git clone https://github.com/Vellih0r/I_will_cry`
 4. change directory
