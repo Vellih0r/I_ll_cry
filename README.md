@@ -10,19 +10,19 @@ I took image from this [cool youtube playlist](https://www.youtube.com/watch?v=3
 
 Debian/Ubuntu:
    ```shell
-      sudo apt update && sudo apt upgrade -y
-      sudo apt install python3 pip
+   sudo apt update && sudo apt upgrade -y
+   sudo apt install python3 pip
    ```
-   Archlinux:
+Archlinux:
    ```shell
    sudo pacman -Syu
    sudo pacman -S python
    sudo pacman -S python-pip
-   ``` 
-3. clone this reposiroty and build CLI with bash script:
+   ```
+2. clone this reposiroty and build CLI with bash script:
     ```shell
    git clone https://github.com/Vellih0r/I_will_cry
    cd I_will_cry
    ./init.sh
     ```
-4. If you delete folder with repository CLI will crash :(((
+3. If you delete folder with repository CLI will crash :(((
