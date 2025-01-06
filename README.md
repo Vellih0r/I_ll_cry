@@ -20,9 +20,9 @@ Archlinux:
    sudo pacman -S python-pip
    ```
 2. clone this reposiroty and build CLI with bash script:
-    ```shell
+   ```shell
    git clone https://github.com/Vellih0r/I_will_cry
    cd I_will_cry
    ./init.sh
-    ```
+   ```
 3. If you delete folder with repository CLI will crash :(((
