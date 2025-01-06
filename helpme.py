@@ -2,7 +2,7 @@ import random
 import os
 import click
 
-file_path = f"{os.getcwd()}/mental.txt"
+file_path = f"{os.getcwd()}/helptext.txt"
 
 def read_phrases():
     if not os.path.exists(file_path):
@@ -32,7 +32,7 @@ def pls():
     if phrases:
         click.echo(random.choice(phrases))
     else:
-        click.echo(f"Error, list with prases not found at {file_path}")
+        click.echo(f"Error, list with phrases not found at {file_path}")
 
 
 @cli.command()
