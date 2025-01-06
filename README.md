@@ -14,9 +14,9 @@ Debian/Ubuntu:
    ```
    Archlinux:
    ```shell
-         sudo pacman -Syu
-         sudo pacman -S python
-         sudo pacman -S python-pip
+   sudo pacman -Syu
+   sudo pacman -S python
+   sudo pacman -S python-pip
    ``` 
 3. clone this reposiroty and build CLI with bash script:
     ```shell
