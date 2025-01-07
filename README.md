@@ -22,7 +22,7 @@ I took image from this [cool youtube playlist](https://www.youtube.com/watch?v=3
    ```
 2. clone this reposiroty and build CLI with bash script:
    ```shell
-   git clone https://github.com/Vellih0r/I_will_cry
+   git clone https://github.com/Vellih0r/I_ll_cry
    cd I_will_cry
    ```
 3. Set correct language at tmp.py
