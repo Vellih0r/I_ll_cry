@@ -1,1 +1,1 @@
-FILE_PATH='/home/miye/pythonLearn/mentalsupportCLI/helptext.txt'
+FILE_PATH='/home/miye/pythonLearn/mentalsupportCLI/helpru.txt'
