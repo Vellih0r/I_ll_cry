@@ -31,6 +31,8 @@ if [ ! -f "requirements.txt" ]; then
 fi
 pip install -r requirements.txt
 
+python3 tmp.py
+
 echo "Step 3: Building the project..."
 pyinstaller --add-binary /usr/lib/x86_64-linux-gnu/libpython3.11.so.1.0:. --onefile ./helpme.py
 mv ./dist/helpme ./
@@ -49,7 +51,9 @@ fi
 if ! echo "$PATH" | grep -q "$HOME/bin"; then
     echo "Adding ~/bin to PATH..."
     echo 'export PATH="$HOME/bin:$PATH"' >> "$HOME/.bashrc"
+    echo 'export PATH="$HOME/bin:$PATH"' >> "$HOME/.zshrc"
     source "$HOME/.bashrc"
+    source "$HOME/.zshrc"
 fi
 
 mv helpme ~/bin

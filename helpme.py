@@ -1,23 +1,21 @@
 import random
 import os
 import click
+from config import FILE_PATH
 
-file_path = f"{os.getcwd()}/helptext.txt"
 
 def read_phrases():
-    if not os.path.exists(file_path):
+    if not os.path.exists(FILE_PATH):
         return []    
-    with open(file_path, "r") as f:
+    with open(FILE_PATH, "r") as f:
         return [line.strip("_ \n") for line in f.readlines()]
 
 
 def write_phrases(phrases):
-    if not os.path.exists(file_path):
-        return False
-    with open(file_path, "w") as f:
+    if not os.path.exists(FILE_PATH):
+        print("File not found!!!")
+    with open(FILE_PATH, "w") as f:
         f.write("\n".join(phrases))
-    return True
-
 
 @click.group()
 def cli():
@@ -32,7 +30,7 @@ def pls():
     if phrases:
         click.echo(random.choice(phrases))
     else:
-        click.echo(f"Error, list with phrases not found at {file_path}")
+        click.echo(f"Error, list with phrases not found at {FILE_PATH}")
 
 
 @cli.command()
@@ -66,9 +64,10 @@ def ls():
     phrases = read_phrases()
     if phrases:
         click.echo("\n".join(phrases))
-        click.echo(f"File: {file_path}")
+        click.echo(f"File: {FILE_PATH}")
     else:
         click.echo("File empty or error coused :(")
+        click.echo(f"File: {FILE_PATH}")
 
 if __name__ == "__main__":
     cli()
