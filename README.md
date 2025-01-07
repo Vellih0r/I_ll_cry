@@ -24,6 +24,15 @@ I took image from this [cool youtube playlist](https://www.youtube.com/watch?v=3
    ```shell
    git clone https://github.com/Vellih0r/I_will_cry
    cd I_will_cry
-   ./init.sh
    ```
-3. If you delete folder with repository CLI will crash :(((
+3. Set correct language at tmp.py
+   ```shell
+   nano ./tmp.py
+   ```
+4. Start installation script
+   ```shell
+   ./init.sh
+   ````
+5. If you delete folder with repository CLI will crash :(((
+      ==important files: config.py, helpeng.txt(depends on lang you choosed)==
+   You can delete all, except these 2 files.
