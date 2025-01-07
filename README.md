@@ -34,5 +34,7 @@ I took image from this [cool youtube playlist](https://www.youtube.com/watch?v=3
    ./init.sh
    ````
 5. If you delete folder with repository CLI will crash :(((
-      ==important files: config.py, helpeng.txt(depends on lang you choosed)==
+
+      ### important files: config.py, helpeng.txt(depends on lang you choosed)==
+
    You can delete all, except these 2 files.
