@@ -1,4 +1,3 @@
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFrjZoDDzBNp3uhZJMxneau99ksJyS3tu1Zrzk673Jfb miye@Mykhailo
 # CLI - generator of positive vibe
 ## Use it when you feel bad
 
